@@ -1,0 +1,11 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+.vscode/
+.env
+\.idea/
+Thumbs.db
+
+# NPM, Bower, ETC
+**/node_modules/*
