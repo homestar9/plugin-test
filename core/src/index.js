@@ -1,5 +1,6 @@
 ( function() {
 
-    $( '#view' ).text( 'Hello World!' );
+    // init the datatable
+    new DataTable( '#example' );
 
 } )();

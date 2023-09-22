@@ -1,7 +1,5 @@
 
 ( function() {
-
-    $( '#view' ).text( 'You are looking at myplugin!' );
     
     // init the search field with typewatch
     const searchField = $( '#pluginSearch' ).typeWatch( {
@@ -12,5 +10,8 @@
         highlight: true,
         captureLength: 2
     } );
+
+    // init the datatable
+    new DataTable( '#pluginExample' );
 
 } )();

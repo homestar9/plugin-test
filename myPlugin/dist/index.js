@@ -7,8 +7,6 @@
 /***/ (() => {
 
 (function () {
-  $('#view').text('You are looking at myplugin!');
-
   // init the search field with typewatch
   var searchField = $('#pluginSearch').typeWatch({
     callback: function callback(value) {
@@ -18,6 +16,9 @@
     highlight: true,
     captureLength: 2
   });
+
+  // init the datatable
+  new DataTable('#pluginExample');
 })();
 
 /***/ })

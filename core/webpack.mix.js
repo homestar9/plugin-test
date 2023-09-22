@@ -10,7 +10,8 @@ mix.setPublicPath( 'dist' );
 // vendor extraction
 mix.extract( [ 
     'jquery',
-    'jquery.typewatch'
+    'jquery.typewatch',
+    'datatables.net'
 ] );
 
 mix
