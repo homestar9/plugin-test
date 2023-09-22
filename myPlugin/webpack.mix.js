@@ -1,4 +1,5 @@
 let mix = require( 'laravel-mix' );
+require('laravel-mix-bundle-analyzer');
 
 mix.setPublicPath( 'dist' );
 
@@ -6,3 +7,5 @@ mix.setPublicPath( 'dist' );
 mix.extract( [] );
 
 mix.js( 'src/index.js', 'dist' ); // specific entrypoint js file
+
+mix.bundleAnalyzer();
