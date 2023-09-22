@@ -12,7 +12,7 @@
   // init the search field with typewatch
   var searchField = $('#pluginSearch').typeWatch({
     callback: function callback(value) {
-      console.log('you typed ' + value);
+      console.log('you typed ' + value + ' in the plugin search field');
     },
     wait: 0,
     highlight: true,

@@ -1,3 +1,4 @@
+window.$ = window.jQuery = require( 'jquery' ); // <-- Make jquery global
 require( "jquery.typewatch" );
 
 // init the search field with typewatch
